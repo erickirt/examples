@@ -1,5 +1,5 @@
 import { AuthenticatedMedusaRequest, MedusaResponse } from "@medusajs/framework/http"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 import { PostStoreCreateRestockSubscription } from "./validators"
 import { MedusaError } from "@medusajs/framework/utils"
 import { createRestockSubscriptionWorkflow } from "../../../workflows/create-restock-subscription"

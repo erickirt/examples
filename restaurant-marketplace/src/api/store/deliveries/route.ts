@@ -1,11 +1,11 @@
 import { MedusaRequest, MedusaResponse } from "@medusajs/framework";
-import zod from "zod";
+import { z } from "@medusajs/framework/zod";
 import { createDeliveryWorkflow } from "../../../workflows/delivery/workflows/create-delivery";
 import { handleDeliveryWorkflow } from "../../../workflows/delivery/workflows/handle-delivery";
 
-const schema = zod.object({
-  cart_id: zod.string(),
-  restaurant_id: zod.string(),
+const schema = z.object({
+  cart_id: z.string(),
+  restaurant_id: z.string(),
 });
 
 export async function POST(req: MedusaRequest, res: MedusaResponse) {

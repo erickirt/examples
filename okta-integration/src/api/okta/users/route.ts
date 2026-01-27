@@ -1,5 +1,5 @@
 import { AuthenticatedMedusaRequest, MedusaResponse } from "@medusajs/framework"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 import { createUserWorkflow } from "../../../workflows/create-user"
 
 export const CreateUserSchema = z.object({

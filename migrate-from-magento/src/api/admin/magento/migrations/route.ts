@@ -1,6 +1,6 @@
 import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http";
 import { migrateCategoriesFromMagentoId, migrateProductsFromMagentoWorkflowId } from "../../../../workflows"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 import { AdminMagentoMigrationsPost } from "../../../middlewares";
 
 export async function GET(

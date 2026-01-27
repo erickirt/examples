@@ -1,6 +1,6 @@
 import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http";
 import { MEILISEARCH_MODULE } from "../../../../modules/meilisearch";
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 
 export const SearchSchema = z.object({
   query: z.string(),

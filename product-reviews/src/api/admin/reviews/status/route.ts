@@ -3,7 +3,7 @@ import type {
   MedusaResponse,
 } from "@medusajs/framework/http"
 import { updateReviewWorkflow } from "../../../../workflows/update-review"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 
 export const PostAdminUpdateReviewsStatusSchema = z.object({
   ids: z.array(z.string()),

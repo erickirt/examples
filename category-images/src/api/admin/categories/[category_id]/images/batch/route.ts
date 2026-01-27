@@ -1,7 +1,7 @@
 import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
 import { updateCategoryImagesWorkflow } from "../../../../../../workflows/update-category-images"
 import { deleteCategoryImagesWorkflow } from "../../../../../../workflows/delete-category-image"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 
 export const UpdateCategoryImagesSchema = z.object({
   updates: z.array(z.object({

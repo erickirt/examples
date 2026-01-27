@@ -4,7 +4,7 @@ import {
 } from "@medusajs/framework/http"
 import { TIER_MODULE } from "../../../../../modules/tier"
 import { MedusaError } from "@medusajs/framework/utils"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 import { OrderStatus } from "@medusajs/framework/utils"
 
 export const NextTierSchema = z.object({

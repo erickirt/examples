@@ -1,7 +1,7 @@
 import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
 import { createVenueWorkflow } from "../../../workflows/create-venue"
 import { RowType } from "../../../modules/ticket-booking/models/venue-row"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 
 export async function GET(
   req: MedusaRequest,

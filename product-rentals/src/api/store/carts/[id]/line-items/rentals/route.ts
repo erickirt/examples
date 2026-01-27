@@ -5,7 +5,7 @@ import type {
 import { 
   addToCartWithRentalWorkflow
 } from "../../../../../../workflows/add-to-cart-with-rental"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 
 export const PostCartItemsRentalsBody = z.object({
   variant_id: z.string(),

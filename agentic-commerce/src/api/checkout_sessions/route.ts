@@ -1,5 +1,5 @@
 import { MedusaRequest, MedusaResponse } from "@medusajs/framework"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 import { createCheckoutSessionWorkflow } from "../../workflows/create-checkout-session"
 import { MedusaError } from "@medusajs/framework/utils"
 

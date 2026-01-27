@@ -2,7 +2,7 @@ import {
   MedusaRequest,
   MedusaResponse,
 } from "@medusajs/framework/http"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 import { updateTierWorkflow } from "../../../../workflows/update-tier"
 
 export async function GET(

@@ -3,7 +3,7 @@ import { Container, Heading, Button, Input, Label, Textarea, toast } from "@medu
 import { useMutation, useQuery } from "@tanstack/react-query"
 import { sdk } from "../../../lib/sdk"
 import { useForm } from "react-hook-form"
-import * as zod from "zod"
+import * as zod from "@medusajs/framework/zod"
 import { 
   FormProvider,
   Controller,

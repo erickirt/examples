@@ -1,6 +1,6 @@
 import { MedusaRequest, MedusaResponse } from "@medusajs/framework"
 import { updateCheckoutSessionWorkflow } from "../../../workflows/update-checkout-session"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 import { MedusaError } from "@medusajs/framework/utils"
 import { prepareCheckoutSessionDataWorkflow } from "../../../workflows/prepare-checkout-session-data"
 import { refreshPaymentCollectionForCartWorkflow } from "@medusajs/medusa/core-flows"

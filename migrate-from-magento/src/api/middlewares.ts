@@ -1,5 +1,5 @@
 import { defineMiddlewares, validateAndTransformBody } from "@medusajs/framework/http";
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 
 export const AdminMagentoMigrationsPost = z.object({
   type: z.enum(["category", "product"]).array()

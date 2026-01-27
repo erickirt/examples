@@ -3,7 +3,7 @@ import {
   MedusaResponse
 } from "@medusajs/framework/http"
 import { MedusaError } from "@medusajs/framework/utils"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 import createVendorWorkflow, { 
   CreateVendorWorkflowInput
 } from "../../workflows/marketplace/create-vendor";

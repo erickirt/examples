@@ -1,5 +1,5 @@
 import { AuthenticatedMedusaRequest, MedusaResponse } from "@medusajs/framework/http"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 import { upsertProductVariantPreorderWorkflow } from "../../../../../workflows/upsert-product-variant-preorder"
 import { disablePreorderVariantWorkflow } from "../../../../../workflows/disable-preorder-variant"
 

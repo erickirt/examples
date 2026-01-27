@@ -1,5 +1,5 @@
 import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http";
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 import { updateInvoiceConfigWorkflow } from "../../../workflows/update-invoice-config";
 
 export async function GET(

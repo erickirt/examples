@@ -1,7 +1,7 @@
 import { 
   AdminCreateProduct
 } from "@medusajs/medusa/api/admin/products/validators"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 import { MediaType } from "../modules/digital-product/types"
 
 export const createDigitalProductsSchema = z.object({

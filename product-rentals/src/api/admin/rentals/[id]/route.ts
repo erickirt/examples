@@ -1,6 +1,6 @@
 import type { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
 import { updateRentalWorkflow } from "../../../../workflows/update-rental"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 
 export const PostRentalStatusBodySchema = z.object({
   status: z.enum(["active", "returned", "cancelled"]),

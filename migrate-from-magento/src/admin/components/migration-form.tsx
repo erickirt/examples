@@ -4,7 +4,7 @@ import {
   FormProvider,
   Controller,
 } from "react-hook-form"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { sdk } from "../lib/sdk"
 

@@ -1,6 +1,6 @@
 import type { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
 import { upsertRentalConfigWorkflow } from "../../../../../workflows/upsert-rental-config"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 
 export const GET = async (req: MedusaRequest, res: MedusaResponse) => {
   const { id } = req.params

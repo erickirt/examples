@@ -1,6 +1,6 @@
 import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
 import { addProductBuilderToCartWorkflow } from "../../../../../workflows/add-product-builder-to-cart"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 
 export const AddBuilderProductSchema = z.object({
   product_id: z.string(),

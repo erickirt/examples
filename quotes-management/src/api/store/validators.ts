@@ -1,7 +1,7 @@
 import {
   createFindParams,
 } from "@medusajs/medusa/api/utils/validators";
-import { z } from "zod";
+import { z } from "@medusajs/framework/zod";
 
 export type GetQuoteParamsType = z.infer<typeof GetQuoteParams>;
 export const GetQuoteParams = createFindParams({
